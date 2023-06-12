@@ -670,7 +670,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/xiaomi/topaz/proprietary/vendor/lib/libagm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_compress_plugin.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_mixer_plugin.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libagm_pcm_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_pcm_plugin.so \
@@ -678,8 +677,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagmmixer.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-acdb.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-gpr.so \
-    vendor/xiaomi/topaz/proprietary/vendor/lib/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-gsl.so \
-    vendor/xiaomi/topaz/proprietary/vendor/lib/libar-pal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-pal.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libats.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
@@ -710,7 +707,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblx-ar_util.so \
-    vendor/xiaomi/topaz/proprietary/vendor/lib/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblx-osal.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libmcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmcs.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/libmediautils_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediautils_vendor.so \
@@ -789,7 +785,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/topaz/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhapticgenerator.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
-    vendor/xiaomi/topaz/proprietary/vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/vendor.qti.hardware.AGMIPC@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.AGMIPC@1.0.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0.so \
@@ -1031,7 +1026,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
-    vendor/xiaomi/topaz/proprietary/vendor/lib64/libagm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_compress_plugin.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_mixer_plugin.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libagm_pcm_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_pcm_plugin.so \
@@ -1044,8 +1038,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libappclassifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappclassifier.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gpr.so \
-    vendor/xiaomi/topaz/proprietary/vendor/lib64/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gsl.so \
-    vendor/xiaomi/topaz/proprietary/vendor/lib64/libar-pal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-pal.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_image.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_video.so \
@@ -1167,7 +1159,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-ar_util.so \
-    vendor/xiaomi/topaz/proprietary/vendor/lib64/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-osal.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libmcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmcs.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libmctfengine_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmctfengine_stub.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
@@ -1438,7 +1429,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.1.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/vendor.qti.gnss-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss-V2-ndk.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/vendor.qti.gnss-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss-service.so \
-    vendor/xiaomi/topaz/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
@@ -1570,8 +1560,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/topaz/proprietary/vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 
 PRODUCT_PACKAGES += \
+    libagm \
+    libar-gsl \
+    libar-pal \
     libfastcvopt \
+    liblx-osal \
     libthermalclient \
+    vendor.qti.hardware.AGMIPC@1.0-impl \
     CACertService \
     CneApp \
     IWlanService \
